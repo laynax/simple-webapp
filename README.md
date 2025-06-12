@@ -34,7 +34,7 @@ This is used in the demonstration of development of Ansible Playbooks.
         # mysql -u <username> -p
         
         mysql> CREATE DATABASE employee_db;
-        mysql> GRANT ALL ON *.* to db_user@'%' IDENTIFIED BY 'Passw0rd';
+        mysql> GRANT ALL ON *.* to db_user@'%' IDENTIFIED BY 'Passw0rd22';
         mysql> USE employee_db;
         mysql> CREATE TABLE employees (name VARCHAR(20));
         
@@ -44,7 +44,7 @@ This is used in the demonstration of development of Ansible Playbooks.
     
 ## 4. Install and Configure Web Server
 
-Install Python Flash dependency
+Install Python Flask dependency
 
     pip install flask
     pip install flask-mysql
