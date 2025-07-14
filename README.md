@@ -33,9 +33,9 @@ This is used in the demonstration of development of Ansible Playbooks.
         
         # mysql -u <username> -p
         
-        mysql> CREATE DATABASE employee_db;
+        mysql> CREATE DATABASE humple;
         mysql> GRANT ALL ON *.* to db_user@'%' IDENTIFIED BY 'Passw0rd';
-        mysql> USE employee_db;
+        mysql> USE humple;
         mysql> CREATE TABLE employees (name VARCHAR(20));
         
   - Insert some test data
